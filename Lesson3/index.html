@@ -11,18 +11,33 @@
 
 </head>
 
-<body>
+<body style="padding bottom: 70px">
+
 
 <div class="grid">
     <header>
 
         <!-- Logo -->
-        <img src="img/Amazee_Labs_Logo.png">
+        <img src="img/Amazee_Labs_Logo.png" class="logo">
+        
+
+        <!-- Navigation -->
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>        
         <!-- Search -->
-        <form action="search.html">
-            <input type="text" placeholder="Search..." name="search">
-            <button type="submit">Search</button>
-        </form>
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton" placeholder="Search"> Search
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
 
     </header>
 

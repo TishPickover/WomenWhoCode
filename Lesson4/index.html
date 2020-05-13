@@ -17,13 +17,41 @@
 <div class="grid">
 
     <form action="index.html" method="GET">
-        <input type="text" name="name">
+        <input type="text" class="nameterm" name="name">
+        <input type="submit" class="button" name="submit">
     </form>
 
-    <h1>My name is <span class="name">not set</span></h1>
-
+    <h1 class=bodycopy>My name is <span class="name">not set</span></h1>
+<br>
+<br>
 </div>
 
+
+<p class=bodycopy> 
+        Select a radio button and click on Submit. 
+    </p> 
+
+      
+    Gender: 
+    <input type="radio" class=bodycopy name="gender" value="Male">Male 
+    <input type="radio" class=bodycopy name="gender" value="Female">Female 
+    <input type="radio" class=bodycopy name="gender" value="Others">Others 
+      
+    <br> 
+    <br>
+      
+    <button type="button" class="button" onclick="displayRadioValue()"> 
+        Submit 
+        <br>
+    </button> 
+      
+    <br> 
+      
+    <div id="result" class=bodycopy></div> 
+
+
+
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>

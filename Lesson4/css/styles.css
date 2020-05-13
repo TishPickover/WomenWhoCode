@@ -1,31 +1,42 @@
-.grid {
-  display: grid;
-  grid-template-columns: 150px auto 150px;
-  grid-template-rows: repeat(3, 100px);
-  grid-gap: 1em;
-}
 
-header,
-aside,
-article,
-footer {
-  background: #eaeaea;
-  padding: 1em;
-}
-
-header, footer {
-  grid-column: 1 / 4;
-}
-
-/* Demo Specific Styles */
 body {
   margin: 0 auto;
   max-width: 56em;
   padding: 1em 0;
 }
 
-.grid > * {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.button {
+  width: 100px;
+  height: 34px;
+  border: none;
+  background: #f67e7d;
+  text-align: top;
+
+
+
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 12px;
+
+
 }
+.nameterm {
+  width: 40%;
+  border: 2px solid #edeff5;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+
+.bodycopy {
+
+font-family: arial;	
+font-size:18px;
+color: #000;
+}
+
